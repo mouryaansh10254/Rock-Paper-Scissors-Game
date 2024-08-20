@@ -16,7 +16,7 @@ Welcome to the Rock Paper Scissors game! This project is a simple implementation
  ## How to Run
  1. **Clone the Repository**
     ```bash
-    git clone https://github.com/mouryaansh10254/Rock-Paper-Scissors.git
+    git clone https://github.com/mouryaansh10254/Rock-Paper-Scissors-Game.git
  2. **Navigate to the Project Directory**
     ```bash
     cd rock-paper-scissors
