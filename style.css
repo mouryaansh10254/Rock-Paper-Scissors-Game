@@ -1,0 +1,100 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    color: white; 
+}
+/*body {
+    background-image: url("tumblr_mti147kJ4u1sil57bo1_500.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    color: white; 
+}*/
+
+h1 {
+    background-color: #00ffff;
+    color: black;
+    height: 5rem;
+    display: inline-flex;
+    font-size: 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem; 
+}
+
+.choice {
+    height: 165px;
+    width: 165px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%; 
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.Score-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    color: aqua;
+}
+
+#User-score, #comp-score {
+    font-size: 4rem;
+    color: aqua;
+}
+
+.message-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: aqua;
+    color: black;
+    font-size: 2rem;
+    display: inline-flex; 
+    padding: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}
